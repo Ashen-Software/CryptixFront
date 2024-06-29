@@ -2,6 +2,7 @@
 ![ImagenTextoHorizontal](https://github.com/ashensoftware/CryptixFront/assets/72664432/bf32a7a6-b06c-4d18-ba44-0066e5168b14)
 
 Welcome to the frontend repository of Cryptix! This repository contains all the frontend code for our blockchain-based ticketing platform. Note that this repo is solely dedicated to the frontend and does not include any backend logic.
+Cryptix is an innovative blockchain-based ticketing platform designed to revolutionize the way people buy tickets for concerts, events, and more. By leveraging blockchain technology, Cryptix ensures enhanced security, transparency, and user experience, preventing bot usage and illegal resale, providing clear ownership history, and eliminating intermediaries. The platform issues tickets, uses smart contracts for managing sales and transfers, and offers a decentralized marketplace for secure resale. Additionally, Cryptix integrates identity verification mechanisms and provides multi-channel access through web and mobile applications, making ticket purchasing seamless and secure.
 
 ## Features 🌟
 1. **Bot Prevention and Illegal Resale**:
