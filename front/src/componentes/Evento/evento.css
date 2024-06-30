@@ -3,18 +3,26 @@
     flex-direction: column;
     border: #DA6918 2px solid;
     border-radius: 6px;
-    padding: 20px;
-    margin: 20px;
+    padding: 1.2rem;
+    margin: 1.2rem;
     justify-content: center;
     color: white;
     height: 20rem;
     width: 20rem;
     box-sizing: border-box;
     
+}
+
+.evento:hover{
     
+    width: 20.5rem;
+    height: 20.5rem;
+    padding: 1.2rem;
+    transition: 0.25s;
 }
 
 .imagen{
+    cursor:pointer;
     width: 100%;
     height: 90%;
     object-fit: cover;
@@ -42,5 +50,5 @@
     border-radius: 6px;
     border: none;
     padding: 0.25rem;
-
+    cursor: pointer;
 }
