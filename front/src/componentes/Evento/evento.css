@@ -1,0 +1,46 @@
+.evento{
+    display: flex;
+    flex-direction: column;
+    border: #DA6918 2px solid;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    color: white;
+    height: 20rem;
+    width: 20rem;
+    box-sizing: border-box;
+    
+    
+}
+
+.imagen{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 6px;
+   
+}
+
+.titulo{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #DA6918;
+    font-size: 1.2rem;
+    
+}
+
+.precio{
+    color:#DA6918;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.boton{
+    color:#FFFFFF;
+    background-color: #DA6918;
+    border-radius: 6px;
+    border: none;
+    padding: 0.25rem;
+
+}

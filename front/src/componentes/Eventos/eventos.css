@@ -1,0 +1,14 @@
+.eventos{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    padding:12rem;
+}
+
+.titulo{
+    color:#DA6918;
+}
+.subtitulo{
+    color:#FFFFFF;
+}
