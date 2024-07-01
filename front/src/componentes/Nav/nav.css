@@ -32,7 +32,7 @@ nav{
         align-items: center;
         cursor:pointer;
         .login{
-            border: solid 1px #DA6918;
+            
             padding:0.5rem 2rem;
             border-radius: 8px;
             background-color: rgba(218,105,24,0.5);
