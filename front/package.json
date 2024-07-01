@@ -9,7 +9,6 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "vite"
-
   },
   "dependencies": {
     "react": "^18.3.1",

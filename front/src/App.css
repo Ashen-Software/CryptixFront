@@ -6,6 +6,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Yantramanav';
+  scrollbar-color: #DA6918 #1F1F1F ;
+  scrollbar-width: thin;
 }
 html {
   scroll-behavior: smooth;

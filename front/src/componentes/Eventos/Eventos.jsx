@@ -31,10 +31,7 @@ const Eventos = () => {
         {currentItems.map((ticket) => (
           <Evento
             key={ticket.id}
-            imagen={ticket.imagen}
-            titulo={ticket.titulo}
-            subtitulo={ticket.subtitulo}
-            precio={ticket.precio}
+            {...ticket}
           />
         ))}
       </div>
