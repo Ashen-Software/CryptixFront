@@ -17,7 +17,7 @@ function Evento(props){
       </div>
         <p className="titulo">{props.titulo}</p>
         <p className='subtitulo'>{props.subtitulo}</p>
-        <p className='precio'>{props.precio}</p>
+        <p className='precio'>€ {props.precio}</p>
         <button className='boton' onClick={agregarCarrito}>Add to Cart</button>
     </div>
   );
