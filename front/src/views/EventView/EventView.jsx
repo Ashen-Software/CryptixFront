@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import './eventView.css';
 import Nav from '../../componentes/Nav/Nav';
 import DescripcionEvento from '../../componentes/DescripcionEvento/DescripcionEvento';
-
+import Footer from '../../componentes/Footer/Footer'
 
 
 function EventView() {
@@ -11,28 +11,33 @@ function EventView() {
   const { event } = location.state;
 
   useEffect(() => {
-    // Obtén la altura de la barra de navegación
-    const navbarHeight = document.querySelector(".navbar").offsetHeight;
-    
-    // Establece el padding-top en el contenido para evitar la superposición
-    document.querySelector(".eventView-container").style.paddingTop = `${navbarHeight}px`;
-}, []);
+    window.scrollTo(0, 0); // Hace scroll al inicio de la página al cargar
+  }, []);
 
   return (
     <>
     <Nav></Nav>
+    
     <div className='eventView-container'>
-      <img src={event.imagen} alt={event.titulo} />
+      <img className='imagen'src={event.imagen} alt={event.titulo} />
       <DescripcionEvento 
       titulo={event.titulo} 
       subtitulo={event.subtitulo}
       fecha={event.fecha}
       precio={event.precio}
       ciudad={event.ciudad}
+      hora= {event.hora}
+      
        />
       
- 
+
     </div>
+    <div className='about_evento'>
+      <p className='titulo_about_de_la_vista'>About this Event</p>
+      <p className='descripcion_evento'>{event.descripcion}</p>
+    </div>
+    
+    <Footer/>
     </>
   );
 }

@@ -37,7 +37,7 @@ function Nav() {
             </div>
             <div className='der'>
                 <a to="/register">Register</a>
-                <a className='login' to="/login">Login</a>
+                <Link className='link-login' to={"/Login"}><p className='login'>Login</p></Link>
             </div>
         </nav>
     );

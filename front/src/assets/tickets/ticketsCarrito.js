@@ -8,7 +8,7 @@ import posada from '../../assets/eventos/posada.png';
 
 
 
-export default carrito = [
+export default [
     {
         imagen: jazz,
         titulo: "CLÁSICOS DEL JAZZ CON LA BIG BAND DE MEDELLÍN",

@@ -14,7 +14,7 @@ const About = () => {
 		</section>
 		<section className="features-section">
 			<div className="left">
-			<h className="features-title">Key Features:</h>
+			<h2 className="features-title">Key Features:</h2>
 				<ul className='features-list'>
 					<li>Secure and Authentic Tickets: Each ticket is a verifiable NFT.</li>
 					<li>Transparent Transactions: All ticket sales and transfers are recorded on the blockchain.</li>

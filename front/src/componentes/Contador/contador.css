@@ -3,6 +3,7 @@
     align-items: center;
     
     button{
+            color: black;
             border: none;
             padding: .2rem;
             width: 1.8rem;;
