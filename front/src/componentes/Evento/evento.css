@@ -4,30 +4,40 @@
     border: #DA6918 2px solid;
     border-radius: 6px;
     padding: 1.2rem;
-    margin: 1.2rem;
     justify-content: center;
     color: white;
-    height: 20rem;
+    min-height: 25rem;
     width: 20rem;
     box-sizing: border-box;
+    gap: 1rem;
     
 }
 
+/*
 .evento:hover{
-    
-    width: 20.5rem;
-    height: 20.5rem;
+    min-width: 20.5rem;
+    min-height: 25.5rem;
     padding: 1.2rem;
     transition: 0.25s;
 }
+*/
 
-.imagen{
-    cursor:pointer;
-    width: 100%;
-    height: 90%;
-    object-fit: cover;
-    border-radius: 6px;
-   
+.evento:hover{
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+
+.event-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .imagen{
+        cursor:pointer;
+        width: 17rem;
+        height: 12rem;
+        object-fit: cover;
+        border-radius: 6px;
+    }
 }
 
 .titulo{
@@ -51,4 +61,5 @@
     border: none;
     padding: 0.25rem;
     cursor: pointer;
+    font-size: 1rem;
 }

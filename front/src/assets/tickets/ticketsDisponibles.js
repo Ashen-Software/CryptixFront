@@ -43,5 +43,40 @@ export default  [
     titulo: "ZURICH COLOMBIA PADEL CUP",
     subtitulo: "Country Club de Bogotá",
     precio: "€107.55",
+  },{
+    imagen: padel,
+    titulo: "ZURICH COLOMBIA PADEL CUP",
+    subtitulo: "Country Club de Bogotá",
+    precio: "€107.55",
+  },{
+    imagen: padel,
+    titulo: "ZURICH COLOMBIA PADEL CUP",
+    subtitulo: "Country Club de Bogotá",
+    precio: "€107.55",
+  },{
+    imagen: padel,
+    titulo: "ZURICH COLOMBIA PADEL CUP",
+    subtitulo: "Country Club de Bogotá",
+    precio: "€107.55",
+  },{
+    imagen: padel,
+    titulo: "ZURICH COLOMBIA PADEL CUP",
+    subtitulo: "Country Club de Bogotá",
+    precio: "€107.55",
+  },{
+    imagen: padel,
+    titulo: "ZURICH COLOMBIA PADEL CUP",
+    subtitulo: "Country Club de Bogotá",
+    precio: "€107.55",
+  },{
+    imagen: posada,
+    titulo: "LUIS ALBERTO POSADA | EL IDOLO DEL PUEBLO",
+    subtitulo: "Movistar Arena",
+    precio: "€20.99",
+  },{
+    imagen: posada,
+    titulo: "LUIS ALBERTO POSADA | EL IDOLO DEL PUEBLO",
+    subtitulo: "Movistar Arena",
+    precio: "€20.99",
   },
 ];
