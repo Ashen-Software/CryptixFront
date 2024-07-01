@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.login-container{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    gap: 3rem;
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        img{
+            width: 28rem;
+        }
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .login-form{
+            width: 30rem;
+            max-width: 30rem;
+            border: solid 1px;
+            border-radius: 10px;
+            border-color: #DA6918;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            padding: 1.8rem 4.8rem;
+            h3{
+                color: #fdfdfd;
+                font-weight: bolder;
+                font-size: 2rem;
+            }
+            label{
+                display:flex;
+                flex-direction: column;
+                gap: .2rem;
+                color: #fdfdfd;
+                font-size: 1.2rem;
+                input{
+                    border: 1px solid;
+                    border-color: rgb(218, 105, 24);
+                    background-color: transparent;
+                    font-size: 1.1rem;
+                    padding: .8rem ;
+                    border-radius: 8px;
+                    transition: all .3s;
+                    color:#F2F2FD ;
+                }
+                input:focus{
+                    outline: none;
+                    box-shadow: 0 0 0 2px rgb(218, 105, 24);
+                }
+                .password-container{
+                    position: relative;
+                    
+                    display: flex;
+                    align-items: center;
+                    input{width: 100%;}
+                    img{
+                        position: absolute;
+                        right: 1rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+            button{
+                padding: .8rem;
+                border: none;
+                border-radius: 8px;
+                font-size: 1.1rem;
+                color: #fdfdfd;
+                background-color: #DA6918;
+                transition: all .3s;
+                cursor:pointer;
+            }
+            button:hover{
+                background-color: #da6918cc;
+            }
+            .not-account{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: .3rem;
+                font-size: 1.2rem;
+                p{
+                    color: #70707B;
+                }
+                a{
+                    color: #F2F2FD;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

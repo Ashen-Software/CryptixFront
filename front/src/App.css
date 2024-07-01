@@ -9,7 +9,16 @@
   scrollbar-color: #DA6918 #1F1F1F ;
   scrollbar-width: thin;
 }
+#root{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
 html {
   scroll-behavior: smooth;
   background-color: #1F1F1F;
+  height: 100%;
 }

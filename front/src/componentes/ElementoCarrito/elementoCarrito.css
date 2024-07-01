@@ -1,0 +1,15 @@
+.elemento_carrito{
+    display: flex;
+    border:solid 1px #DA6918;
+    align-items: center;
+    justify-content: space-between;
+
+    .division{
+        display: flex;
+    }
+    
+    .imagen_carrito{
+        width: 25rem;
+        height:15rem;
+    }
+}

@@ -1,9 +1,17 @@
-function Cart(){
-    return (
-        <div>
-            <h1>Carrito</h1>
-        </div>
-    );
+import React from 'react'
+import Nav from '../../componentes/Nav/Nav';
+import ShoppingCart from '../../componentes/ShoppingCart/ShoppingCart';
+import Footer from '../../componentes/Footer/Footer';
+import './cart.css';
+
+const Cart = () => {
+  return (
+    <>
+      <Nav/>
+      <ShoppingCart/>
+      <Footer/>
+    </>
+  )
 }
 
-export default Cart;
+export default Cart
