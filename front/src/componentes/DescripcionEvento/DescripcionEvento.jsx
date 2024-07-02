@@ -31,12 +31,12 @@ function DescripcionEvento(props){
             </div>
             <p className='precio'>€{(props.precio * contador).toFixed(2) }</p>
             <div className='pago_icono'>
-            <div className='pago'>
-              <Contador value={contador}
-                decrementar={decrementar}
-                incrementar={incrementar}/><span>Cantidad</span>
+              <div className='pago'>
+                <Contador value={contador}
+                  decrementar={decrementar}
+                  incrementar={incrementar}/><span>Cantidad</span>
               </div>  
-              <img className='icono' src={credit_card}/>
+                <img className='icono' src={credit_card}/>
               </div>
             <button className='boton_carrito'>ADD TO CART!</button>
             <p className='abajo'>By -{'>'} Honey :3</p>

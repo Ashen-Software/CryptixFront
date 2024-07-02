@@ -23,11 +23,13 @@ function ElementoCarrito(props){
                 <div className='division'>
                 <img className='imagen_carrito' src={props.imagen} alt={props.titulo} />
                 <div className='informacion'>
-                    <p>{props.precio}</p>
-                    <p>{props.titulo}</p>
-                    <p>{props.subtitulo}</p>
+                    <p className='precio'>€{(props.precio*contador).toFixed(2)}</p>
+                    
+                    <p className='titulo'>{props.titulo}</p>
+                    <p className='subtitulo'>{props.subtitulo}</p>
                 </div></div>
-                <Contador value={contador}
+                <Contador className='contador'
+                    value={contador}
                     decrementar={decrementar}
                     incrementar={incrementar}/>
                 </div>
