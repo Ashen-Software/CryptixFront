@@ -8,14 +8,19 @@ function ShoppingCart( ){
     
     return (
         <div className='carrito'>
-           <h2>Shopping Cart</h2>
-           <div className='elementos_carrito'>
-           {tickets.map((ticket) => (
-            <ElementoCarrito key={ticket.id} precio={ticket.precio} titulo={ticket.titulo} subtitulo={ticket.subtitulo} imagen={ticket.imagen}/>
-      ))}
+           
+                <div className='elementos_carrito'>
+                    <h2 className='titulo_shopping'>Shopping Cart</h2>
 
-
-           </div>
+                    {tickets.map((ticket) => (
+                        <ElementoCarrito key={ticket.id} precio={ticket.precio} titulo={ticket.titulo} subtitulo={ticket.subtitulo} imagen={ticket.imagen}/>
+                        ))}
+                    <div className='botones'>
+                        <button className='botones_elemento checkout'>Checkout</button>
+                        <p className='botones_elemento cancelar'>Cancel All</p>
+                    </div>
+                </div>
+            
         </div>
     );
 }

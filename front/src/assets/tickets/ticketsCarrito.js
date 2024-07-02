@@ -9,16 +9,5 @@ import posada from '../../assets/eventos/posada.png';
 
 
 export default [
-    {
-        imagen: jazz,
-        titulo: "CLÁSICOS DEL JAZZ CON LA BIG BAND DE MEDELLÍN",
-        subtitulo: "Teatro Metropolitano José Gutiérrez Gómez",
-        precio: "€19.99",
-    },
-    {
-        imagen: duolingo,
-        titulo: "DUOLINGO ON ICE",
-        subtitulo: "Auditório Ibirapuera São Paulo, BR",
-        precio: "€50.25",
-      },
+    
 ];
